@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.icons-1 {
+display: flex;
+align-items: center;
+justify-content: space-around;
+align-items: center;
+}
+
+.brand-name {
+text-align: center;
+}
+
+.brand-tagline {
+text-align: center;
+}
+
+.web-btn {
+    border: none;
+    background: green;
+    color: white;
+    padding: 15px;
+    display: flex;
+    margin-left: 45%;
+    list-style: none;
+}
+
+.meeting-heading {
+    text-align: center;
+}

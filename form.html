@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Webinar Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Webinar Form</h1>
+        <input type="radio" name="form-type" id="individual" />
+        <label>Individual</label>
+        <input type="radio" name="form-type" id="corporate" />
+        <label>Corporate</label>
+        <br><br><br>
+        <div class="input-fields">
+            <div class="corporate-fields">
+                <form class="form-group">
+                    <div class="form-name">
+                        <label>Name</label><br>
+                        <input type="text" placeholder="Enter name" required name="name">
+                    </div>
+                    <div class="form-name">
+                        <label>Email Address</label><br>
+                        <input type="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-name">
+                        <label>Company</label><br>
+                        <input type="text" placeholder="Enter company" name="company">
+                    </div>
+                    <div class="form-name">
+                        <label>Phone</label><br>
+                        <input type="text" placeholder="Enter phone number" name="phone">
+                    </div>
+                    <div class="form-name">
+                        <label>Webinar category</label><br>
+                        <input type="text" name="webinar-category" list="datalist1">
+                        <datalist id="datalist1">
+                            <option value="Finance">
+                            <option value="Human Resource">
+                            <option value="Well Being">
+                            <option value="Work Ethics">
+                            <option value="Counselling">
+                            <option value="Trade">
+                            <option value="Sales">
+                            <option value="Revival">
+                        </datalist>
+                    </div>
+                    <br>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="individual-fields">
+                <form class="form-group">
+                    <div class="form-name">
+                        <label>Name</label>
+                        <br>
+                        <input type="text" placeholder="Enter name" name="name">
+                    </div>
+                    <div class="form-name">
+                        <label>Email Address</label>
+                        <br>
+                        <input type="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-name">
+                        <label>Phone</label>
+                        <br>
+                        <input type="text" placeholder="Enter phone number" name="phone">
+                    </div>
+                    <div class="form-name">
+                        <label>Webinar category</label>
+                        <br>
+                        <input type="text" name="webinar-category" list="datalist1">
+                        <datalist id="datalist1">
+                            <option value="Finance">
+                            <option value="Human Resource">
+                            <option value="Well Being">
+                            <option value="Work Ethics">
+                            <option value="Counselling">
+                            <option value="Trade">
+                            <option value="Sales">
+                            <option value="Revival">
+                        </datalist>
+                    </div>
+                    <br>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
